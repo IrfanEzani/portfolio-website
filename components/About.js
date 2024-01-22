@@ -6,36 +6,22 @@ const About = () => {
           <div className="title_inner">About Me</div>
         </div>
         <div className="image">
-          <img src="images/man1.jpg" alt="" />
+          <img src="images/about-pic.png" alt="" />
         </div>
         <div className="desc">
           <p>
-            Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum
-            vocent mediocritatem an, cule dicta iriure at. Ubique maluisset vel
-            te, his dico vituperata ut. Pro ei phaedrum maluisset. Ex audire
-            suavitate has, ei quodsi tacimates sapientem sed, pri zril ubique
-            ut. Te cule tation munere noluisse. Enim torquatos ne pri, eum
-            mollis salutandi corrumpit et, fugit apeirian duo ad.
+          Hey there, <br /> 
+          <br />
+          I'm Irfan, a part-time tech aficionado and Computer Science major at the University of Maryland. I'm interested in unraveling the hidden insights of data around us.<br />
+          <br />
+          I had the chance to apply my analytical skills as a Business Analyst Intern at PETRONAS and utilizing my web development expertise at base.initiative. I've been the Director of Communications for the National Assembly of Malaysian Students in the USA for the past 2 years, exploring Malaysian hospitality in the States.<br />
+          <br />
+          I spend my time diving into the realm of Large Language Models, Generative AI, and cloud computing. When I'm not immersed in the digital world, I'm out capturing life through a lens, sketching my next big idea, exploring places or on a quest to master the art of playing the piano.
           </p>
           <div className="info-list">
             <ul>
               <li>
-                <strong>Name:</strong> John Doe
-              </li>
-              <li>
-                <strong>Age:</strong> 22 Years
-              </li>
-              <li>
-                <strong>Job:</strong> Web Developer
-              </li>
-              <li>
-                <strong>Citizenship:</strong> Ukraine
-              </li>
-              <li>
-                <strong>Residence: </strong> Kiev
-              </li>
-              <li>
-                <strong>E-mail:</strong> johndoe@domain.com
+                <strong>Let's connect: </strong> hello@irfanezani.com
               </li>
             </ul>
           </div>

@@ -12,7 +12,7 @@ const Clients = dynamic(() => import("@/components/Clients"), {
 const Resume = () => {
   return (
     <GlitcheLayout>
-      <PageBanner pageLink={"resume"} pageName={"Resume"} />
+      <PageBanner pageLink={"Portfolio"} pageName={"Portfolio"} />
       <About />
       <Skills />
       <Services />

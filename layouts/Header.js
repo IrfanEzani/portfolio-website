@@ -35,17 +35,17 @@ const Header = ({ dark }) => {
             </li>
             <li className={pathname.includes("resume") ? "active" : ""}>
               <Link href={`resume${dark ? "-dark" : ""}`} className={`lnk`}>
-                Resume
+                Portfolio
               </Link>
             </li>
             <li className={pathname.includes("portfolio") ? "active" : ""}>
               <Link href={`portfolio${dark ? "-dark" : ""}`} className="lnk">
-                Portfolio
+                Projects
               </Link>
             </li>
             <li className={pathname.includes("blog") ? "active" : ""}>
               <Link href={`blog${dark ? "-dark" : ""}`} className="lnk">
-                Blog
+                Writings
               </Link>
             </li>
             <li className={pathname.includes("contacts") ? "active" : ""}>

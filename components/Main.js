@@ -3,19 +3,19 @@ import { useEffect } from "react";
 import Typed from "typed.js";
 
 const Hero = ({ mouse }) => {
-  /* useEffect(() => {
+  useEffect(() => {
     new Typed(".typed-subtitle", {
     strings: ["Data Enthusiast.", "Based in College Park, Maryland."],
       loop: true,
       typeSpeed: 80,
     });
-  }, []); */
+  }, []);
   return (
     <div className="section started" style={{ height: "96vh" }}>
       <div className="centrize full-width">
         <div className="vertical-center">
           <div className="started-content">
-            <div className="h-title glitch-effect" data-text="I'm Irfan">
+            <div className="h-title glitch-effect" data-text="Hi! I'm Irfan">
               <span>Hi! I'm Irfan</span>
             </div>
               <span className="typed-subtitle" />
