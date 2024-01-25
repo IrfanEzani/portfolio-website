@@ -11,7 +11,7 @@ const ContactsInfo = () => {
               <span className="ion ion-android-phone-portrait" />
             </div>
             <div className="name">Phone</div>
-            <p>+ (231) 456 67 89</p>
+            <p>+ 1 (240) 467 8564</p>
           </div>
           <div className="service-item">
             <div className="icon">
@@ -19,8 +19,8 @@ const ContactsInfo = () => {
             </div>
             <div className="name">Email</div>
             <p>
-              <a href="mailto:steve-pearson@gmail.com">
-                steve-pearson@gmail.com
+              <a href="mailto:hello@irfanezani.com">
+                hello@irfanezani.com
               </a>
             </p>
           </div>
@@ -29,7 +29,7 @@ const ContactsInfo = () => {
               <span className="ion ion-ios-location" />
             </div>
             <div className="name">Address</div>
-            <p>2621 W Pico Blvd, Los Angeles</p>
+            <p>College Park, Maryland</p>
           </div>
         </div>
         <div className="contact_form">
@@ -53,8 +53,7 @@ const ContactsInfo = () => {
           </form>
           <div className="alert-success">
             <p>
-              Thanks, your message is sent successfully. We will contact you
-              shortly!
+              Thanks, your message is sent successfully. I'll get in touch shortly!
             </p>
           </div>
         </div>

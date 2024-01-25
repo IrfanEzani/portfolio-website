@@ -15,8 +15,8 @@ const Resume = () => {
       <PageBanner pageLink={"Portfolio"} pageName={"Portfolio"} />
       <About />
       <Skills />
-      <Services />
-      <Clients />
+      {/* <Services /> */}
+      {/* <Clients /> */}
     </GlitcheLayout>
   );
 };

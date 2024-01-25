@@ -9,7 +9,7 @@ const RecentWorks = dynamic(() => import("@/components/RecentWorks"), {
 const Portfolio = () => {
   return (
     <GlitcheLayout>
-      <PageBanner pageName={"Portfolio"} pageLink={"portfolio"} />
+      <PageBanner pageName={"Projects"} pageLink={"Projects"} />
       <RecentWorks />
     </GlitcheLayout>
   );
