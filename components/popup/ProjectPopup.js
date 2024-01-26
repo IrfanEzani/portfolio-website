@@ -12,14 +12,11 @@ const ProjectPopup = () => {
         </div>
         <div className="desc">
           <div className="category">Graphics</div>
-          <h4>Hello World Paper</h4>
+          <h4>Texas Hold 'Em Poker Game</h4>
           <p>
-            Consul latine iudicabit eu vel. Cu has animal eruditi voluptatibus.
-            Eu volumus explicari sed. Mel mutat vituperata suscipiantur et, et
-            fabellas explicari adipiscing quo, no mucius euismod vis. Cu vim
-            quem quod cibo.
+          Game simulation of the Texas Hold 'Em poker, built with the integration of Java's graphical user interface and implementation of the game's infrastructure. Includes poker hand evaluations with shuffle and cut functions.
           </p>
-          <a href="#" className="btn" data-text="View Project">
+          <a href="https://github.com/IrfanEzani/texas-hold-em" className="btn" data-text="View Project">
             View Project
           </a>
         </div>

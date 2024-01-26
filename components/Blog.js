@@ -35,58 +35,22 @@ const Blog = ({ dark }) => {
   const blogs = [
     {
       id: 1,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work1.jpg",
-      date: "14 June 2016",
+      title: "Mandelbrot Set and its bigger implication",
+      img: "images/mandelbrot-set.jpg",
+      date: "January 31, 2024",
     },
-    {
+    /* {
       id: 2,
-      title: "Designing the perfect notification UX",
+      title: "Test",
       img: "images/works/work2.jpg",
       date: "14 June 2016",
     },
     {
       id: 3,
-      title: "Designing the perfect notification UX",
+      title: "Test",
       img: "images/works/work3.jpg",
       date: "14 June 2016",
-    },
-    {
-      id: 4,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work4.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 5,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work5.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 6,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work6.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 7,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work7.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 8,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work8.jpg",
-      date: "14 June 2016",
-    },
-    {
-      id: 9,
-      title: "Designing the perfect notification UX",
-      img: "images/works/work9.jpg",
-      date: "14 June 2016",
-    },
+    }, */
   ];
 
   return (
@@ -113,7 +77,7 @@ const Blog = ({ dark }) => {
               <div className="desc">
                 <div className="date">{blog.date}</div>
                 <Link
-                  href={`blog_inner${dark ? "-dark" : ""}`}
+                  href={`${dark ? "-dark" : ""}`}
                   className="name"
                 >
                   {blog.title}

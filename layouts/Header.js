@@ -38,14 +38,14 @@ const Header = ({ dark }) => {
                 Portfolio
               </Link>
             </li>
-            <li className={pathname.includes("portfolio") ? "active" : ""}>
-              <Link href={`portfolio${dark ? "-dark" : ""}`} className="lnk">
+            <li className={pathname.includes("project") ? "active" : ""}>
+              <Link href={`project${dark ? "-dark" : ""}`} className="lnk">
                 Projects
               </Link>
             </li>
-            <li className={pathname.includes("blog") ? "active" : ""}>
-              <Link href={`blog${dark ? "-dark" : ""}`} className="lnk">
-                Writings
+            <li className={pathname.includes("thoughts") ? "active" : ""}>
+              <Link href={`thoughts${dark ? "-dark" : ""}`} className="lnk">
+                Thoughts
               </Link>
             </li>
             <li className={pathname.includes("contacts") ? "active" : ""}>

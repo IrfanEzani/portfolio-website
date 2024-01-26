@@ -78,7 +78,7 @@ const RecentWorks = () => {
       <div className="section works section_" id="section-works">
         <div className="content">
           <div className="title">
-            <div className="title_inner">Recent Works</div>
+            <div className="title_inner">Previous Works</div>
           </div>
           <div className="filter-menu">
             <div className="filters">
@@ -98,12 +98,12 @@ const RecentWorks = () => {
               </div>
               <div className="btn-group">
                 <label
-                  data-text="Video"
-                  className={`c-pointer ${activeBtn("f-video")}`}
-                  onClick={handleFilterKeyChange("f-video")}
+                  data-text="Game"
+                  className={`c-pointer ${activeBtn("test-category")}`}
+                  onClick={handleFilterKeyChange("test-category")}
                 >
-                  <input type="radio" name="fl_radio" defaultValue=".f-video" />
-                  Video
+                  <input type="radio" name="fl_radio" defaultValue=".test-category" />
+                  Games
                 </label>
               </div>
               <div className="btn-group">
@@ -126,7 +126,7 @@ const RecentWorks = () => {
                   Links
                 </label>
               </div>
-              <div className="btn-group">
+              {/* <div className="btn-group">
                 <label
                   data-text="Image"
                   className={`c-pointer ${activeBtn("f-image")}`}
@@ -135,8 +135,8 @@ const RecentWorks = () => {
                   <input type="radio" name="fl_radio" defaultValue=".f-image" />
                   Image
                 </label>
-              </div>
-              <div className="btn-group">
+              </div> */}
+              {/* <div className="btn-group">
                 <label
                   data-text="Gallery"
                   className={`c-pointer ${activeBtn("f-gallery")}`}
@@ -149,7 +149,7 @@ const RecentWorks = () => {
                   />
                   Gallery
                 </label>
-              </div>
+              </div> */}
               <div className="btn-group">
                 <label
                   data-text="Content"
@@ -167,7 +167,7 @@ const RecentWorks = () => {
             </div>
           </div>
           <div className="box-items portfolio-items">
-            <div className="box-item f-gallery">
+            {/* <div className="box-item f-gallery"> //hide gallery
               <div className="image">
                 <a
                   href="#gallery-1"
@@ -199,8 +199,8 @@ const RecentWorks = () => {
                   Canvas Tote Bag MockUp
                 </a>
               </div>
-            </div>
-            <div className="box-item f-video">
+            </div> */}
+            {/* <div className="box-item test-category">
               <div className="image">
                 <a
                   href="https://youtu.be/S4L8T2kFFck"
@@ -225,8 +225,8 @@ const RecentWorks = () => {
                   Coffee Cup In Hand
                 </a>
               </div>
-            </div>
-            <div className="box-item f-links">
+            </div> */}
+            {/* <div className="box-item f-links">
               <div className="image">
                 <a
                   href="https://beshley.com/"
@@ -249,8 +249,8 @@ const RecentWorks = () => {
                   Love &amp; Care Ceramic Bottles
                 </a>
               </div>
-            </div>
-            <div className="box-item f-image">
+            </div> */}
+            {/* <div className="box-item f-image">
               <div className="image">
                 <a href="images/works/work4.jpg" className="has-popup-image">
                   <img src="images/works/work4.jpg" alt />
@@ -272,8 +272,8 @@ const RecentWorks = () => {
                   Shopping gift bag
                 </a>
               </div>
-            </div>
-            <div className="box-item f-gallery">
+            </div> */}
+            {/* <div className="box-item f-gallery">
               <div className="image">
                 <a
                   href="#gallery-2"
@@ -305,8 +305,8 @@ const RecentWorks = () => {
                   Amore Mio Three Cups
                 </a>
               </div>
-            </div>
-            <div className="box-item f-music">
+            </div> */}
+            {/* <div className="box-item f-music">
               <div className="image">
                 <a
                   href="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/471954807&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
@@ -331,8 +331,8 @@ const RecentWorks = () => {
                   Marta Veludo Beautiful Poster
                 </a>
               </div>
-            </div>
-            <div className="box-item f-image">
+            </div> */}
+            {/* <div className="box-item f-image">
               <div className="image">
                 <a href="images/works/work7.jpg" className="has-popup-image">
                   <img src="images/works/work7.jpg" alt />
@@ -354,7 +354,7 @@ const RecentWorks = () => {
                   Minimal Poster Frame
                 </a>
               </div>
-            </div>
+            </div> */}
             <div className="box-item f-content">
               <div className="image">
                 <a

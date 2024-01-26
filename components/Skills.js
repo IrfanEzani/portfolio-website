@@ -25,7 +25,7 @@ export const Knowledge = () => {
               <div className="name">Search Engine Optimization</div>
             </li>
             <li>
-              <div className="name">Large Language Models Manipulation</div>
+              <div className="name">Large Language Models</div>
             </li>
             
           </ul>

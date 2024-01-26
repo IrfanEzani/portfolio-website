@@ -26,7 +26,7 @@ const About = () => {
             </ul>
           </div>
           <div className="bts">
-            <a href="#" className="btn fill" data-text="Download CV">
+            <a href="https://drive.google.com/file/d/1RW9qSKtjjer5cDKunpUhs_S2wRsLfxXg/view?usp=sharing" className="btn fill" data-text="Download CV">
               Download Resume
             </a>
           </div>

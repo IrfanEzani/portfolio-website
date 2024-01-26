@@ -9,7 +9,7 @@ const Blog = dynamic(() => import("@/components/Blog"), {
 const BlogPage = () => {
   return (
     <GlitcheLayout>
-      <PageBanner pageLink={"blog"} pageName={"Blog"} />
+      <PageBanner pageLink={"Thoughts"} pageName={"Thoughts"} />
       <Blog />
     </GlitcheLayout>
   );
