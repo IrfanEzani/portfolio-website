@@ -4,8 +4,9 @@ const type = {
   PORTFOLIOMODAL: "PORTFOLIOMODAL",
   BLOGMODAL: "BLOGMODAL",
   GALLERY: "GALLERY",
+  CURRENTPOPUPID: "CURRENTPOPUPID",
 };
-const { MODAL, PORTFOLIOMODAL, BLOGMODAL, GALLERY } = type;
+const { MODAL, PORTFOLIOMODAL, BLOGMODAL, GALLERY, CURRENTPOPUPID } = type;
 
 import { createContext, useCallback, useReducer } from "react";
 
@@ -18,6 +19,11 @@ const reducer = (state, action) => {
       return {
         ...state,
         modal: payload,
+      };
+    case CURRENTPOPUPID:  // Add a new case
+      return {
+        ...state,
+        currentPopupId: payload,
       };
     case PORTFOLIOMODAL:
       return {
@@ -45,6 +51,8 @@ const state = (props) => {
     portfolioModal: null,
     blogModal: null,
     gallery: false,
+    currentPopupId: null,
+
   };
   const [state, dispatch] = useReducer(reducer, initialState);
 
@@ -74,8 +82,15 @@ const state = (props) => {
       payload: value,
     });
   }, []);
+  const setCurrentPopupId = useCallback((value) => {
+    dispatch({
+      type: CURRENTPOPUPID,
+      payload: value,
+    });
+  }, []);
+  
 
-  const { modal, portfolioModal, blogModal, gallery } = state;
+  const { modal, portfolioModal, blogModal, gallery, currentPopupID } = state;
   return (
     <context.Provider
       value={{
@@ -87,6 +102,8 @@ const state = (props) => {
         setBlogModal,
         gallery,
         setGallery,
+        currentPopupID,
+        setCurrentPopupId,
       }}
     >
       {props.children}
