@@ -43,11 +43,11 @@ const Header = ({ dark }) => {
                 Projects
               </Link>
             </li>
-            <li className={pathname.includes("thoughts") ? "active" : ""}>
+            {/* <li className={pathname.includes("thoughts") ? "active" : ""}>
               <Link href={`thoughts${dark ? "-dark" : ""}`} className="lnk">
                 Thoughts
               </Link>
-            </li>
+            </li> */}
             <li className={pathname.includes("contacts") ? "active" : ""}>
               <Link href={`contacts${dark ? "-dark" : ""}`} className="btn">
                 Contacts

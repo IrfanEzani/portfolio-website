@@ -99,51 +99,255 @@ const RecentWorks = () => {
               <div className="btn-group">
                 <label
                   data-text="Game"
-                  className={`c-pointer ${activeBtn("test-category")}`}
-                  onClick={handleFilterKeyChange("test-category")}>
+                  className={`c-pointer ${activeBtn("ai")}`}
+                  onClick={handleFilterKeyChange("ai")}>
                   <input
                     type="radio"
                     name="fl_radio"
-                    defaultValue=".test-category"
+                    defaultValue=".ai"
                   />
-                  Games
+                  AI & ML
                 </label>
               </div>
               <div className="btn-group">
                 <label
                   data-text="Music"
-                  className={`c-pointer ${activeBtn("f-music")}`}
-                  onClick={handleFilterKeyChange("f-music")}>
-                  <input type="radio" name="fl_radio" defaultValue=".f-music" />
-                  Music
+                  className={`c-pointer ${activeBtn("data-analysis")}`}
+                  onClick={handleFilterKeyChange("data-analysis")}>
+                  <input type="radio" name="fl_radio" defaultValue=".data-analysis" />
+                  Data Science
                 </label>
               </div>
               <div className="btn-group">
                 <label
                   data-text="Links"
-                  className={`c-pointer ${activeBtn("f-links")}`}
-                  onClick={handleFilterKeyChange("f-links")}>
-                  <input type="radio" name="fl_radio" defaultValue=".f-links" />
-                  Links
+                  className={`c-pointer ${activeBtn("dsa")}`}
+                  onClick={handleFilterKeyChange("dsa")}>
+                  <input type="radio" name="fl_radio" defaultValue=".dsa" />
+                  Data Structures
                 </label>
               </div>
               <div className="btn-group">
                 <label
                   data-text="Content"
-                  className={`c-pointer ${activeBtn("f-content")}`}
-                  onClick={handleFilterKeyChange("f-content")}>
+                  className={`c-pointer ${activeBtn("game-dev")}`}
+                  onClick={handleFilterKeyChange("game-dev")}>
                   <input
                     type="radio"
                     name="fl_radio"
-                    defaultValue=".f-content"
+                    defaultValue=".game-dev"
                   />
-                  Content
+                  Game Development
                 </label>
               </div>
             </div>
           </div>
           <div className="box-items portfolio-items">
-            <div className="box-item f-content">
+            <div className="box-item ai">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/script-gpt"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work1.jpg' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Artificial Intelligence</div>
+                <a
+                  href="https://github.com/IrfanEzani/script-gpt"
+                  className="name has-popup-media"
+                  target="_blank">
+                  ScriptGPT
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item ai">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/billboard-wikipedia-scrapper"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work2.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Artificial Intelligence</div>
+                <a
+                  href="https://github.com/IrfanEzani/script-gpt"
+                  className="name has-popup-media"
+                  target="_blank">
+                  Billboard Scraper
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item data-analysis">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/county-house-price-analysis"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work3.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Data Analysis</div>
+                <a
+                  href="https://github.com/IrfanEzani/county-house-price-analysis"
+                  className="name has-popup-media"
+                  target="_blank">
+                  King County House Price Analysis
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item data-analysis">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/AITA-data-exploration"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work4.jpeg' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Data Science</div>
+                <a
+                  href="https://github.com/IrfanEzani/AITA-data-exploration"
+                  className="name has-popup-media"
+                  target="_blank">
+                  r/AITA and Ethics Study
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item dsa">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/maze-solver"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work5.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Data Structures</div>
+                <a
+                  href="https://github.com/IrfanEzani/maze-solver"
+                  className="name has-popup-media"
+                  target="_blank">
+                  Maze Solver
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item dsa">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/target-identifier"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work6.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Data Structures</div>
+                <a
+                  href="https://github.com/IrfanEzani/target-identifier"
+                  className="name has-popup-media"
+                  target="_blank">
+                  Target Identifier
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item game-dev">
               <div className="image">
                 <a
                   href="https://github.com/IrfanEzani/texas-hold-em"
@@ -156,7 +360,7 @@ const RecentWorks = () => {
                     setCurrentPopupId("popup-1");
                     console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
                   }}*/> 
-                  <img src="images/works/work3.jpg" alt />
+                  <img src='images/works/work7.png' alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -167,33 +371,30 @@ const RecentWorks = () => {
                 </a>
               </div>
               <div className="desc">
-                <div className="category">Content</div>
+                <div className="category">Game Development</div>
                 <a
-                  href="#popup-1"
+                  href="https://github.com/IrfanEzani/texas-hold-em"
                   className="name has-popup-media"
-                  onClick={(e) => {
+                  target="_blank">
+                  Texas Hold 'Em
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/mandelbrot-visualization"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
                     e.preventDefault();
                     modalToggle(true);
                     setPortfolioModal(true);
                     setCurrentPopupId("popup-1");
-                  }}>
-                  Cardboard Box
-                </a>
-              </div>
-            </div>
-            <div className="box-item f-content">
-              <div className="image">
-                <a
-                  href="#popup-2"
-                  className="has-popup-media"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    modalToggle(true);
-                    setPortfolioModal(true);
-                    setCurrentPopupId("popup-2");
-                    console.log("Setting currentPopupId to:", "popup-2"); // Adjust accordingly
-                  }}>
-                  <img src="images/works/work3.jpg" alt />
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/work8.png' alt />
                   <span className="info">
                     <span className="centrize full-width">
                       <span className="vertical-center">
@@ -204,20 +405,16 @@ const RecentWorks = () => {
                 </a>
               </div>
               <div className="desc">
-                <div className="category">Content</div>
+                <div className="category">Fractal Rendering</div>
                 <a
-                  href="#popup-2"
+                  href="https://github.com/IrfanEzani/mandelbrot-visualization"
                   className="name has-popup-media"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    modalToggle(true);
-                    setPortfolioModal(true);
-                    setCurrentPopupId("popup-2");
-                  }}>
-                  Cardboard Box
+                  target="_blank">
+                  Mandelbrot Set Visualization
                 </a>
               </div>
             </div>
+            
           </div>
           <div className="clear" />
         </div>
