@@ -24,7 +24,7 @@ const Hero = ({ mouse }) => {
       </div>
       {mouse && (
         <a href="#" className="mouse_btn">
-          <span class="ion ion-mouse"></span>
+          <span class="ion ion-chevron-down"></span>
         </a>
       )}
     </div>

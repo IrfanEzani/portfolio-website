@@ -46,7 +46,7 @@ const PageBanner = ({ pageName, pageLink, dark }) => {
         </div>
       </div>
       <a href="#" className="mouse_btn">
-        <span className="ion ion-mouse mouse " />
+        <span className="ion ion-chevron-down chevron-down " />
       </a>
     </div>
   );
