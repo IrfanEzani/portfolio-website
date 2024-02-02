@@ -32,7 +32,7 @@ const ContactsInfo = () => {
             <p>College Park, Maryland</p>
           </div>
         </div>
-        <div className="contact_form">
+      {/*   <div className="contact_form">
           <form id="cform" method="post">
             <div className="group-val">
               <input type="text" name="name" placeholder="Name" />
@@ -56,7 +56,7 @@ const ContactsInfo = () => {
               Thanks, your message is sent successfully. I'll get in touch shortly!
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

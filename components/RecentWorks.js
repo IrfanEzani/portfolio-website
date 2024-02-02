@@ -140,6 +140,32 @@ const RecentWorks = () => {
                   Game Development
                 </label>
               </div>
+              <div className="btn-group">
+                <label
+                  data-text="Content"
+                  className={`c-pointer ${activeBtn("lang")}`}
+                  onClick={handleFilterKeyChange("lang")}>
+                  <input
+                    type="radio"
+                    name="fl_radio"
+                    defaultValue=".lang"
+                  />
+                  Language Processing
+                </label>
+              </div>
+              <div className="btn-group">
+                <label
+                  data-text="Content"
+                  className={`c-pointer ${activeBtn("web-dev")}`}
+                  onClick={handleFilterKeyChange("web-dev")}>
+                  <input
+                    type="radio"
+                    name="fl_radio"
+                    defaultValue=".web-dev"
+                  />
+                  Web Development
+                </label>
+              </div>
             </div>
           </div>
           <div className="box-items portfolio-items">
@@ -380,6 +406,250 @@ const RecentWorks = () => {
                 </a>
               </div>
             </div>
+
+            <div className="box-item game-dev">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/tetris"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/tetris.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Game Development</div>
+                <a
+                  href="https://github.com/IrfanEzani/tetris"
+                  className="name has-popup-media"
+                  target="_blank">
+                  Tetris
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item game-dev">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/blackjack-game"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                  }}*/> 
+                  <img src='images/works/blackjack-game.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Game Development</div>
+                <a
+                  href="https://github.com/IrfanEzani/blackjack-game"
+                  className="name has-popup-media"
+                  target="_blank">
+                  Blackjack
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item lang">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/language-processor"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                    
+                  }}*/> 
+                  <img src='images/works/word-weaver.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Language Transformation</div>
+                <a
+                  href="https://github.com/IrfanEzani/language-processor"
+                  className="name has-popup-media"
+                  target="_blank">
+                  WordWeaver  
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item lang">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/NFA-library"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                    
+                  }}*/> 
+                  <img src='images/works/nfa.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Regex</div>
+                <a
+                  href="https://github.com/IrfanEzani/NFA-library"
+                  className="name has-popup-media"
+                  target="_blank">
+                  NFA Library  
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item lang">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/microcaml-interpreter"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                    
+                  }}*/> 
+                  <img src='images/works/interpreter.jpg' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Interpreter</div>
+                <a
+                  href="https://github.com/IrfanEzani/microcaml-interpreter"
+                  className="name has-popup-media"
+                  target="_blank">
+                  microCaml Interpreter  
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item web-dev">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/base-initiative-website"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                    
+                  }}*/> 
+                  <img src='images/works/base.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Web Dev</div>
+                <a
+                  href="https://github.com/IrfanEzani/base-initiative-website"
+                  className="name has-popup-media"
+                  target="_blank">
+                  base.initiative  
+                </a>
+              </div>
+            </div>
+
+            <div className="box-item web-dev">
+              <div className="image">
+                <a
+                  href="https://github.com/IrfanEzani/mock-college-website"
+                  className="has-popup-media"
+                  target="_blank"
+                  /* onClick={(e) => {
+                    e.preventDefault();
+                    modalToggle(true);
+                    setPortfolioModal(true);
+                    setCurrentPopupId("popup-1");
+                    console.log("Setting currentPopupId to:", "popup-1"); // Adjust accordingly
+                    
+                  }}*/> 
+                  <img src='images/works/mock.png' alt />
+                  <span className="info">
+                    <span className="centrize full-width">
+                      <span className="vertical-center">
+                        <span className="ion ion-ios-plus-empty" />
+                      </span>
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div className="desc">
+                <div className="category">Web Dev</div>
+                <a
+                  href="https://github.com/IrfanEzani/mock-college-website"
+                  className="name has-popup-media"
+                  target="_blank">
+                  Mock Alumni Website  
+                </a>
+              </div>
+            </div>
+
 
             <div className="box-item">
               <div className="image">
