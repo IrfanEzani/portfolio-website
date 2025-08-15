@@ -5,7 +5,7 @@ import Typed from "typed.js";
 const Hero = ({ mouse }) => {
   useEffect(() => {
     new Typed(".typed-subtitle", {
-    strings: ["Data Enthusiast.", "Based in College Park, Maryland."],
+    strings: ["UMD Alum.", "Tech Explorer.", "Passionate Learner."],
       loop: true,
       typeSpeed: 80,
     });

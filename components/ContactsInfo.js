@@ -11,7 +11,7 @@ const ContactsInfo = () => {
               <span className="ion ion-android-phone-portrait" />
             </div>
             <div className="name">Phone</div>
-            <p>+ 1 (240) 467 8564</p>
+            <p>+ 60 12-972 8564</p>
           </div>
           <div className="service-item">
             <div className="icon">
@@ -28,8 +28,8 @@ const ContactsInfo = () => {
             <div className="icon">
               <span className="ion ion-ios-location" />
             </div>
-            <div className="name">Address</div>
-            <p>College Park, Maryland</p>
+            <div className="name">Located:</div>
+            <p>Kuala Lumpur, MY</p>
           </div>
         </div>
       {/*   <div className="contact_form">

@@ -16,7 +16,7 @@ const About = () => {
           <br />
           I had the chance to apply my analytical skills as a Business Analyst Intern at PETRONAS and utilizing my web development expertise at base.initiative. I've been the Director of Communications for the National Assembly of Malaysian Students in the USA for the past 2 years, exploring Malaysian hospitality in the States.<br />
           <br />
-          I spend my time diving into the realm of Large Language Models, Generative AI, and cloud computing. When I'm not immersed in the digital world, I'm out capturing life through a lens, sketching my next big idea, exploring places or on a quest to master the art of playing the piano.
+          I spend my time diving into the realm of Large Language Models, Generative AI, and cloud computing. When I'm not immersed in the digital world, I'm out capturing life through a lens, sketching my next big idea, exploring places or just running around my neighborhood.
           </p>
           <div className="info-list">
             <ul>
@@ -26,8 +26,8 @@ const About = () => {
             </ul>
           </div>
           <div className="bts">
-            <a href="https://drive.google.com/file/d/1RW9qSKtjjer5cDKunpUhs_S2wRsLfxXg/view?usp=sharing" className="btn fill" data-text="Download CV">
-              Download Resume
+            <a href="https://drive.google.com/file/d/1Pz0iEHBDeWC5-EV3y6-uMcLfuJIO9kzc/view?usp=sharing" className="btn fill" data-text="Download Resume">
+              Request Resume
             </a>
           </div>
         </div>
